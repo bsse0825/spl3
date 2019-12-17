@@ -1,0 +1,511 @@
+<!doctype html>
+  <html style="height:100%">
+    <head>
+      <title>WEB INTERFACE FOR CHAT MESSAGE WITH THE HELP OF BANGLA NEURAL KEYBOARD</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js"></script>
+  <!--
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    
+   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+ 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    
+   
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js"></script>
+      <script src="jquery-3.3.1.min.js"></script>
+  -->
+      <script src="handlebars.min.js"></script>
+      
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+head{
+   overflow:hidden;
+}
+body {
+  background: #ffffff;
+  font: 14px/20px "Lato", Arial, sans-serif;
+  height: 100%;
+  padding: 10px 0;
+  color: rgb(3, 3, 3);
+  overflow-x: hidden;
+   overflow-y: hidden;
+}
+.container {
+  margin: 0 auto;
+  width: 100%;
+
+  background: #444753;
+  border-radius: 5px;
+}
+.people-list {
+  width: 260px;
+  float: left;
+}
+.people-list .search {
+  padding: 20px;
+}
+.people-list input {
+  border-radius: 3px;
+  border: none;
+  padding: 14px;
+  color: white;
+  background: #6a6c75;
+  width: 90%;
+  font-size: 14px;
+}
+.people-list .fa-search {
+  position: relative;
+  left: -25px;
+}
+.people-list ul {
+  padding: 20px;
+  height: 770px;
+}
+.people-list ul li {
+  padding-bottom: 20px;
+}
+.people-list img {
+  float: left;
+}
+.people-list .about {
+  float: left;
+  margin-top: 8px;
+}
+.people-list .about {
+  padding-left: 8px;
+}
+.people-list .status {
+  color: #92959e;
+}
+.chat {
+  width: 90%;
+  height: 85%;
+  float: left;
+  background: #ffffff;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  color: #434651;
+  overflow-x: hidden;
+}
+.chat .chat-header {
+  padding: 5px;
+  border-bottom: 2px solid white;
+}
+.chat .chat-header img {
+  float: left;
+}
+.chat .chat-header .chat-about {
+  float: left;
+  padding-left: 10px;
+  margin-top: 6px;
+}
+.chat .chat-header .chat-with {
+  font-weight: bold;
+  font-size: 16px;
+}
+.chat .chat-header .chat-num-messages {
+  color: #92959e;
+}
+.chat .chat-header .fa-star {
+  float: right;
+  color: #d8dadf;
+  font-size: 20px;
+  margin-top: 12px;
+}
+.chat .chat-history {
+  padding: 7px 30px 7px;
+  border-bottom: 2px solid white;
+  overflow-y: scroll;
+  
+}
+.chat .chat-preview {
+  display:inline-block;
+  height: 5%;
+  width: 98%;
+  margin-left: 14px;
+  text-align: left;
+  
+}
+.banglishword{
+  color: black;
+  text-decoration: underline;
+  font-weight: bold;
+}
+.banglaword{
+  color: rgba(255, 0, 34, 0.884);
+  text-decoration: underline;
+
+}
+.chat .chat-history .message-data {
+  margin-bottom: 7px;
+}
+.chat .chat-history .message-data-time {
+  color: #a8aab1;
+  padding-left: 6px;
+}
+.chat .chat-history .message {
+  color: white;
+  padding: 5px 20px;
+  line-height: 26px;
+  font-size: 16px;
+  border-radius: 7px;
+  margin-bottom: 10px;
+  width: 90%;
+  position: relative;
+}
+.chat .chat-history .message:after {
+  bottom: 100%;
+  left: 7%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-bottom-color: #86bb71;
+  border-width: 10px;
+  margin-left: -10px;
+}
+.chat .chat-history .my-message {
+  background: #86bb71;
+}
+.chat .chat-history  .my-message .send_message_type{
+  font-weight: bold;
+  color: gold;
+}
+.chat .chat-history .other-message {
+  background: #94c2ed;
+}
+.chat .chat-history .other-message:after {
+  border-bottom-color: #94c2ed;
+  left: 93%;
+}
+.chat .chat-message {
+  padding: 2px 20px;
+}
+.shortenedSelect {
+  min-width: 100px;
+  margin-left: 20px;
+}
+.chat .chat-message textarea {
+  width: 100%;
+  border: none;
+  padding: 5px 10px;
+  font: 14px/22px "Lato", Arial, sans-serif;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  resize: none;
+}
+.chat .chat-message .fa-file-o, .chat .chat-message .fa-file-image-o {
+  font-size: 14px;
+  color: gray;
+  cursor: pointer;
+}
+.chat .chat-message button {
+  float: right;
+  color: #94c2ed;
+  font-size: 16px;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  background: #f2f5f8;
+}
+.banglaword{
+  color: black;
+}
+.chat .chat-message button:hover {
+  color: #ffffff;
+}
+.online, .offline, .me {
+  margin-right: 3px;
+  font-size: 10px;
+}
+.online {
+  color: #86bb71;
+}
+.offline {
+  color: #e38968;
+}
+.me {
+  color: #94c2ed;
+}
+.align-left {
+  text-align: left;
+}
+.align-right {
+  text-align: right;
+}
+.float-right {
+  float: right;
+}
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+
+
+
+.label_user{
+    color: green;
+}
+
+.header{
+    height: 10%;
+}
+
+
+section#input_zone {
+    text-align: center;
+    background-color: rgb(101, 168, 230);
+    height: 10%;
+    width: 100%;
+}
+
+input#username {
+    font-family: 'Comfortaa', sans-serif;
+}
+
+
+.rcorners2 {
+  border-radius: 50px;
+}
+
+hr.style-one {
+border: 0;
+height: 3px;
+background: #333;
+background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
+background-image: -moz-linear-gradient(left, #ccc, #333, #ccc);
+background-image: -ms-linear-gradient(left, #ccc, #333, #ccc);
+background-image: -o-linear-gradient(left, #ccc, #333, #ccc);
+}
+#suggestion{
+  margin: 20px;
+}
+    </style>
+  
+    
+    </head>
+  
+  <body style="height:100%"> 
+    
+    <div id="myModal" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">বাংলা লিপিবদ্ধকরণ করতে আমাদের সাহায্য করুন</h4>
+          </div>
+          <div class="modal-body">
+            <p><b id="myModalBanglish"></b> বাংলা শব্দ: </p>
+            <input type="text" id="banglaWordInput">
+          </div>
+          <div>
+            <button id="suggestion" type="button" class="btn btn-outline-primary border border-primary " onclick="ShowSuggestionList()">suggestion</button>
+          </br>
+          <select id="mySelect" class="shortenedSelect" size="5" onchange="ChangeText()">
+            
+          </select>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-outline-primary border border-primary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-outline-primary border border-primary " onclick="enlistCorrection()">Save</button>
+    
+          </div>
+        </div>
+    
+      </div>
+    </div>
+     
+      <script>
+        function sugestion_string(){
+          var banglish = $("#myModalBanglish").text()
+          var bangla = $("#banglaWordInput").val()
+          $.getJSON("/predict?q=" + banglish, (data) => {
+           // console.log("/predict?q=" + lastLookup + " : ", data)
+            if (data.predict) {
+               
+
+
+            }
+          })
+        }
+      
+      function ShowSuggestionList() {
+        $('#mySelect').find('option').remove().end().append('<option></option>');
+        $("#mySelect").trigger("liszt:updated"); 
+        var banglish = $("#myModalBanglish").text()
+        var bangla = $("#banglaWordInput").val()
+        var arr ;
+        $.getJSON("/predict?q=" + banglish, (data) => {
+          // console.log("/predict?q=" + lastLookup + " : ", data)
+          if (data.predict) {
+
+            arr = data.predict.split(" ");
+            console.log(arr)
+            for (var i = 1; i < arr.length; i++) {
+              var x = document.getElementById("mySelect");
+              var option = document.createElement("option");
+              option.text = arr[i];
+              x.add(option);
+            }
+
+          }
+        })
+        
+      
+       // arr = arr.split(" ")
+
+        
+        //document.getElementById("selectedtextOption").innerHTML =$("#myselect option:selected").text();
+        
+      }
+
+      function ChangeText() {
+          var x = document.getElementById("mySelect");
+          var i = x.selectedIndex;
+          document.getElementById("banglaWordInput").value = x.options[i].text;
+        }
+    
+        function enlistCorrection() {
+          var banglish = $("#myModalBanglish").text()
+          var bangla = $("#banglaWordInput").val()
+
+          console.log("Checking bangla: " + bangla)
+          var unicodeRegex = /^[\u0980-\u09FF]+$/
+          if (unicodeRegex.test(bangla)) {
+              $("#myModal").modal('hide')
+              $("#banglaWordInput").val('')
+             var dataToSent = {}
+              dataToSent.bangla = bangla
+              dataToSent.banglish = banglish
+
+            $.post('/correction', dataToSent).done((data) => {
+              console.log('data: ' + data);
+              alert(data.message)
+            })
+            
+          } else {
+            alert("শুধু বাংলা লিখুন")
+          }
+        }
+      </script>
+
+      <div class="row header" >
+        <section id="input_zone" class="fixed-top w-100">
+          <div><a href="https://www.omicronlab.com/download/iAvro1.5.dmg" class="text-danger">Download Avro For MAC</a> || <a
+              href="https://www.omicronlab.com/download/setup_avrokeyboard_5.5.0.exe" class="text-danger"> Download Avro For
+              Windows</a>
+          </div>
+          
+          <label class="label_user">Set Name :</label>
+          <input id="username" class="vertical-align border border-success rcorners2" type="text" placeholder="Enter name" size="30"/>
+          <button id="send_username" class="vertical-align btn btn-outline-success btn-sm rcorners2"type="button">Submit</button>
+        </section>
+      </div>
+   
+    <br/>
+    <div class="chat" style="width: 100%">
+      <!--
+      <div class="chat-header clearfix" style="height:8% ; width: 100%">
+       
+        
+        <div class="chat-about">
+          <div class="chat-with">Chat with the help of Bangla Neural Keyboard</div>
+        </div>
+        <i class="fa fa-star"></i>
+      </div> 
+      -->
+      <div class="chat-history" id = "chat_id" style="height:74% ;width: 100%;">
+        <ul style="list-style-type:none">
+         
+          
+        </ul>
+        
+      </div> <!-- end chat-history -->
+      <span class="badge badge-secondary chat-preview" id = "preview">Preview</span>
+      <div class="chat-message clearfix" style="height:20%; ">
+        <textarea class="form-control border border-primary" name="message-to-send" id="message-to-send" placeholder ="Type your message" rows="2"></textarea>
+                
+        <i class="fa fa-file-o"></i> &nbsp;&nbsp;&nbsp;
+        <i class="fa fa-file-image-o"></i>
+        
+        <button id = "send_message" type="button" class="btn btn-outline-primary border border-primary ">Send</button>
+
+      </div> <!-- end chat-message -->
+      
+    </div> <!-- end chat -->
+    
+  </div> <!-- end container -->
+ 
+  
+<script id="message-template" type="text/x-handlebars-template">
+  <li class="clearfix">
+    <div class="message-data align-right">
+      <span class="message-data-time" >{{time}}, {{date}}</span> &nbsp; &nbsp;
+      <span class="message-data-name" >{{user}}</span> <i class="fa fa-circle me"></i>
+    </div>
+    <div class="message other-message float-right">
+      
+      <div class="send_message_type" >
+
+      </div>
+      <div class="re_message_type">
+      
+      </div>
+     
+     
+     
+      
+      
+    </div>
+  </li>
+</script>
+
+
+<script id="message-response-template" type="text/x-handlebars-template">
+  <li>
+    <div class="message-data">
+      <span class="message-data-name"><i class="fa fa-circle online"></i> {{user}}</span>
+      <span class="message-data-time">{{time}}, {{date}}</span>
+    </div>
+    <div class="message my-message">
+      
+      <div class="response_message_type"></div>
+      <div class="snd_message_type"></div>
+      
+    </div>
+    
+   
+    
+  </li>
+</script>
+  
+
+
+  <script src="jquery.ba-throttle-debounce.min.js" crossorigin="anonymous"></script>
+  <script src="chat.js"></script>
+</body>
+</html>
+
+
+

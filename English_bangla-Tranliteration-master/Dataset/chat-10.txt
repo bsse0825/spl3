@@ -1,0 +1,27 @@
+﻿
+amaar;gramer;naam;kashiara.;amader;gramti;duti;nadi;diye;ghera;rupnarayan;aar;kansabari.;
+আমার;গ্রামের ;নাম;কাশিয়ারা;আমাদের;গ্রামটি;দুটি;নদী;দিয়ে;ঘেরা;রূপনারায়ণ;আর;কংসাবতী;
+gramer;adhikansha;basinda;krishijibi.;aar;kichhu;grambaasi;kolkatai;chakri;kore;
+গ্রামের;অধিকাংশ;বাসিন্দা;কৃষিজীবি;আর;কিছু;গ্রামবাসী;কোলকাতায়;চাকরি;করে;
+amader;school;ti;amader;pasher;graam_e;
+আমাদের;স্কুল*;টি;আমাদের;পাশের;গ্রামে;
+aami;aar;amaar;school;er;bandhura;pratidin;hente;school;e;jetam.;
+আমি;আর;আমার ;স্কুল**;এর;বন্ধুরা;প্রতিদিন;হেঁটে;স্কুল**;এ;যেতাম;
+school;er;dhare;kansabati;nadi;achhe.;
+স্কুল**;এর;ধারে;কংসাবতী;নদী;আছে;
+sei;nadir;dhare;amra;bikale;kheladhula;kortam.;
+সেই;নদীর;ধারে;আমরা;বিকালে;খেলাধুলা;করতাম;
+bandhuder;sange;haasi;thatta,;kheladhula,;maarpit;kore;samai;kete;jeto.;
+বন্ধুদের ;সঙ্গে ;হাসি;ঠাট্টা;খেলাধুলা;মারপিট;ক'রে;সময়;কেটে;যেত;
+tai;parashona;aar;hoto;na;
+তাই;পড়াশোনা;আর ;হতো;না;
+chhotobela;thekei;prakriti;te;nana;rakam;er;ghatana;dekhechhi.;
+ছোটোবেলা;থেকেই;প্রকৃতি;তে;নানা;রকম;এর;ঘটনা;দেখেছি;
+ei;sab;ghatanagulo;amaar;mone;kichhu;prashna;jagato.;
+এই;সব;ঘটনাগুলো;আমার;মনে;কিছু;প্রশ্ন;জাগাতো;
+tarpar;sei;prashnagulor;uttar;ami;pai;ashtam;shrenite;bhoutabignan;parar;samai.;
+তারপর;সেই;প্রশ্নগুলোর;উত্তর;আমি;পাই;অষ্টম;শ্রেণিতে;ভৌতবিজ্ঞান;পড়ার;সময়;
+tarpar;aro;gabhir;giggasa;jage.;
+তারপর;আরো;গভীর;জিজ্ঞাসা;জাগে;
+sei;theke;amar;bhoutabignan;parar;ichchhe;hoyechhilo;
+সেই;থেকে ;আমার ;ভৌতবিজ্ঞান;পড়ার;ইচ্ছে;হয়েছিলো;

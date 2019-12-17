@@ -1,0 +1,21 @@
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda-9.0/lib64/
+
+scp -r ../Project remote_user@107.109.10.109:/home/remote_user 
+
+scp test.txt remote_user@107.109.10.109:/home/remote_user 
+
+ssh -R 52698:localhost:52698 remote_user@107.109.10.109
+
+ssh remote_user@107.109.10.109
+
+cp test1.txt test2/
+
+cp -r test1 test2/
+
+rm test.txt
+
+rm -rf test/
+
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
+

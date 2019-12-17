@@ -1,0 +1,27 @@
+
+sir;jagadish;chandra;bose;ekjon;safol;bangali;biggani.;
+স্যার**;জগদীশ;চন্দ্র;বোস;একজন;সফল;বাঙালি;বিজ্ঞানী।;
+Tar;gobesonar;prodhan;dik;chilo;udhbhit;o;torit;choumbok.;
+তার;গবেষণার;প্রধান;দিক;ছিলো;উদ্ভিদ;ও;তরিৎ;চুম্বক।;
+Chintadharay;tini;tar;somayer;theke;60;bochor;egiye;chilen.;
+চিন্তাধারায়;তিনি;তার;সময়ের;থেকে;60_num;বছর;এগিয়ে;ছিলেন।;
+England;Salisbury;e;Marconi;prothom;sophol;betar;taranger;porikkha;1897;saler;may;maser;aage;korenni,;
+ইংল্যান্ডের**;স্যালিস্বেরী**;এ;মার্কোনি**;প্রথম;সফল;বেতার;তরঙ্গের;পরীক্ষা;1897_num;সালের;মে**;মাসের;আগে;করেননি,;
+kintu;er;onek;aagei;1895;sale;sir;jagadish;chandra;bose;oi;somosto;porikha;kolkatai;ek;prodorsonite;jonosadharaner;samne;kore;dekhan.;
+কিন্তু;এর;অনেক;আগেই;1895_num;সালে;স্যার**;জগদীশ;চন্দ্র;বোস;ওই;সমস্ত;পরীক্ষাগুলি;কলকাতায়;এক;প্রদর্শনীতে;জনসাধারণের;সামনে;করে;দেখান।;
+1897;sale;prokasito;gobesona;potrer;kichu;dharona;bortomaner;NARO;12;meter;durobikhane;babohrito;ekti;nuton;1.3;mm;multi-beam;grahoke;ekitribhuto;kora;hoyeche.;
+1897_num;সালে;প্রকাশিত;গবেষণা;পত্রের;কিছু;ধারণা;বর্তমানের;এন.এ.আর.ও **;12_num;মিটার**;দূরবীক্ষণে;ব্যবহৃত;একটি;নুতন;1.3_num;মি.মি.**;মাল্টি-বিম**;গ্রহকে;একত্রিভূত;করা;হয়েছে।;
+Kolkata,;bharater;sanskritik;raajdhani;o;anandanagari;naam;porichito.;
+কলকাতা,;ভারতের;সাংস্কৃতিক;রাজধানী;ও;আনন্দনগরী;নামে;পরিচিত।;
+Durgapujo;e;sohorer;sorboprodhan;o;sorbhadik;jakjomokpurna;anusthan.;
+দুর্গাপুজো;এ;শহরের;সর্বপ্রধান;ও;সর্বাধিক;জাঁকজমকপূর্ণ;অনুষ্ঠান।;
+1780;sale;James;Agustus;Hickey;sompadonay;prokasito;bharater;prothom;sonbadpotro;‘Bengal;Gazette’;ei;sohor;thekei;prokasito;hoy.;
+1780_num;সালে;জেমস**;অগস্টাস**;হিকি-র**;সম্পাদনায়;প্রকাশিত;ভারতের;প্রথম;সংবাদপত্র;‘বেঙ্গল**;গেজেট’**;এই;শহর;থেকেই;প্রকাশিত;হয়।;
+1814;sale;protisthito;bharatiyo;songrohosala;asiaer;prothom;jadughar.;
+1814_num;সালে;প্রতিষ্ঠিত;ভারতীয়;সংগ্রহশালা;এশিয়ার**;প্রথম;জাদুঘর।;
+Kolkata;bharater;ekmatro;sohor;jekhane;tram;network;chalu;ache.;
+কলকাতা;ভারতের;একমাত্র;শহর;যেখানে;ট্রাম**;নেটওয়ার্ক**;চালু;আছে।;
+Kolkata;onchole;teenti;durpallar;railway;terminus;ache;–;howrah;station,;sealdah;o;Kolkata;station;(chitpur).;
+কলকাতা;অঞ্চলে;তিনটি;দূরপাল্লার;রেলওয়ে**;টার্মিনাস**;আছে;–;হাওড়া;স্টেশন,**;শিয়ালদহ;ও;কলকাতা;স্টেশন**;(চিত্পুর)।;
+Purba;railway;o;dokhin-purba;railwayer;sodor;doptor;ei;sohore;obosthito.;
+পূর্ব;রেলওয়ে**;ও;দক্ষিণ-পূর্ব;রেলওয়ের**;সদর;দপ্তরও;এই;শহরে;অবস্থিত।;

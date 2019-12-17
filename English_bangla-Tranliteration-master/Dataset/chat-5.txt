@@ -1,0 +1,21 @@
+
+amar;naam;indranil;basu,;tapash;kumar;basur;holen;amar;baba.;
+আমার;নাম;ইন্দ্রনীল;বসু,;তাপস;কুমার;বসু;হলেন;আমার ‌;বাবা।;
+amar;bari;jalpaigurite.;
+আমার;বাড়ি;জলপাইগুড়িতে।;
+ami;maddhomik;obdhi;holy;child;vidyalaye;porasona;korechi,;
+আমি;মাধ্যমিক;অবধি;হোলি**;চাইল্ড**;বিদ্যালয়ে;পড়াশোনা;করেছি,;
+tar;pare;st.;james;uchcho;vidyalaye;parasona;korechi.;
+তার;পরে;সেন্ট**;জেম্‌স্**;উচ্চ;বিদ্যালয়ে;পড়াশোনা;করেছি,;
+r;bi;tech;korechi;imps;college;theke.;
+আর;বি**;টেক**;করেছি;আই এম পি এস**;কলেজ**;থেকে।;
+bartamane;ame;mat3;impex;namok;ekti;company;te;chakri;korchi;
+বর্তমানে;আমি;ম্যাটথ্রি**;ইমপেক্স**;নামক;একটি;কোম্পানি**;তে;চাকরি;করছি;
+natun;jalpaiguri;bes;bhalo;jayga,;asole;natun;jalpaiguri;holo;siliguri;ebon;jalpaigurir;simana.;
+নতুন;জলপাইগুড়ি;বেশ;ভালো;জায়গা,;আসলে;নতুন;জলপাইগুড়ি;হলো;শিলিগুড়ি;এবং;জলপাইগুড়ির;সীমানা।;
+natun;jalpaigurite;rail;station;habar;jonne;ekhane;bohu;dharoner;lok;dekha;jay;
+নতুন;জলপাইগুড়িতে;রেল**;স্টেশন**;হবার;জন্যে;এখানে;বহু;ধরণের;লোক;দেখা ;যায়;
+amaar;abosar;samaye;computere;khela;khelte;bes;bhalo;lage;
+আমার;অবসর;সময়ে;কম্পিউটারে**;খেলা;খেলতে;বেশ;ভালো;লাগে;
+na;hole;gaan;sunte;bes;bhalo;lage;
+না;হ'লে;গান;শুনতে;বেশ ;ভালো;লাগে;

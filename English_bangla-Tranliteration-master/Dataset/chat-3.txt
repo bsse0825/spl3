@@ -1,0 +1,27 @@
+
+ami;ekhon;kolkata;te;thaki,;kintu;amar;aasol;bari;malda;te.;
+আমি;এখন;কোলকাতা;তে;থাকি;কিন্তু;আমার;আসল ;বাড়ি;মালদা;তে।;
+ami;malda;khub;bhalo;basi.;
+আমি;মালদা;খুব;ভালো;বাসি।;
+prothom;karon;malda;amar;jonmosthan.;
+প্রথম;কারণ;মালদা;আমার;জন্মস্থান।;
+amar;barir;khub;kache;bharot seba aashrom sogho;ache,;
+আমার;বাড়ির;খুব;কাছে;ভারত সেবা আশ্রম সংঘ;আছে,;
+ami;bikale;sekhane;ghurte;jetam.;malda;te;gour;er;moto;sundor;oitihasik;sthan;ache.;
+আমি;বিকালে;সেখানে;ঘুরতে;যেতাম।;মালদা;তে;গৌর;এর;মতো;সুন্দর;ঐতিহাসিক;স্থান;আছে।;
+malda;anek;besi;o;anek;rokom;aam;paoa;jai.;echarao;anek;karon;ache;amar;malda;k;valo;lagar.;
+মালদা;অনেক;বেশি;ও;অনেক;রকম;আম ;পাওয়া;যায়।;এছাড়াও;অনেক;কারণ;আছে;আমার;মালদা;কে;ভালো;লাগার।;
+ami;jokhon;malda;jai;tokhon;sadharanato;Gour;Express;train;e;ratri;te;sealdah;theke;train;e;chapi;ar;sokal;te;malda;te;giye;puochoi.;
+আমি;যখন;মালদা;যাই;তখন;সাধারণত;গৌর;এক্সপ্রেস**;ট্রেন**;এ ;রাত্রি ;তে;শিয়ালদা;থেকে;ট্রেন**;এ;চাপি;আর;সকাল;তে;মালদা;তে;গিয়ে;পৌঁছোই।;
+Gour,;Adina;forest,;Shubhankar;Shishu;Uddyan,;Ramkrishna;mission;math,;farakka;barrage.;
+গৌর,;আদিনা;ফরেস্ট**,;শুভঙ্কর;শিশু;উদ্যান;রামকৃষ্ণ;মিশন**;মঠ,;ফারাক্কা;ব্যারেজ**।;
+ha,;ami;Gour;e;anek;bar;gechi.;echarao;anyanno;jaiga;gulo;teo;ghurechi;
+হ্যাঁ;আমি;গৌর;এ;অনেক;বার;গেছি।;এছাড়াও;অন্যান্য;জায়গা;গুলো;তেও;ঘুরেছি;
+Gour;bagnlar;rajdhani;chilo.;
+গৌর;বাংলার;রাজধানী;ছিলো।;
+eti;ekti;oitihasik;sthan;jekhane;bharoter;prachinotomo;itihase;nidorshon;paoa;jai.;
+এটি;একটি;ঐতিহাসিক;স্থান;যেখানে;ভারতের;প্রাচীনতম;ইতিহাসে;নিদর্শন;পাওয়া ;যায়।;
+ekhane;Ramkeli,Feroze;Minar,Chika;Masjid,Dakhil;Darwaza,;Fateh;Khan;somadhi;egulo;ache.;
+এখানে;রামকেলি, ফিরোজ;মিনার, চিকা;মসজিদ, দাখিল;দরওয়াজা,;ফতেহ;খান;সমাধি;এগুলো;আছে।;
+echarao;aro;anek;oitihasik;nidorshon;ache.;
+এছাড়াও;আরো;অনেক;ঐতিহাসিক;নিদর্শন;আছে।;

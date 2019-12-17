@@ -1,0 +1,21 @@
+
+amar;3;ti;shakh;acche;
+আমার;তিন_num;টি;সখ;আছে;
+boi;pora,;khabor;sangroho;kora;aar;swapno;dekha;
+বই;পড়া,;খবর;সংগ্রহ;করা;আর;স্বপ্ন;দেখা;
+ami;swapno;dekhte;valobashi.;
+আমি;স্বপ্ন;দেখতে;ভালোবাসি;
+r;sei;swapno;gulo;sadaranoto;ami;r;amar;charpasher;manush;joner;unnotir;sathe;jorito;
+আর;সেই;স্বপ্ন;গুলো;সাধারণত;আমি;আর;আমার;চারপাশের;মানুষ;জনের;উন্নতির;সাথে;জড়িত;
+ami;swapno;dekhi;amar;sab;priyo;jon;jano;valo;thake;suke;
+আমি;স্বপ্ন;দেখি;আমার;সব;প্রিয়;জন;যেন;ভালো;থাকে;সুখে;
+ami;nijeke;anek;uchotai;niye;jabar;swapno;dekhi;
+আমি;নিজেকে;অনেক;উচ্চতায়;নিয়ে ;যাবার;স্বপ্ন;দেখি;
+ami;vobishote;amar;nijer;grame;giye;gramer;manush;der;unnoti;korar;katha;vabchi;
+আমি;ভবিষ্যতে;আমার;নিজের;গ্রামে ;গিয়ে;গ্রামের ;মানুষ;দের;উন্নতি;করার;কথা;ভাবছি;
+ami;vebechi;amar;grame;ekta;samobai-samiti;kholar;katha.;
+আমি;ভেবেছি;আমার;গ্রামে;একটা;সমবায়-সমিতি;খোলার ;কথা।;
+jekhane;bekar;jubok;ra;nijeder;paye;darabar;sujog;pabe;
+যেখানে;বেকার;যুবক;রা;নিজেদের;পায়ে;দাঁড়াবার;সুযোগ ;পাবে;
+ami;gramer;hato;doridro;khete;khawya;manush;der;judhe;samil;hote;chai;
+আমি;গ্রামের;হত;দরিদ্র;খেটে;খাওয়া;মানুষ;দের;যুদ্ধে;সামিল;হ'তে;চাই;

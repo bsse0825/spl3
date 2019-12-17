@@ -1,0 +1,7 @@
+﻿
+accha;schoollife;r;byapare;ki;bolbo;south;point;porechi;chiro;jibon;ebong;shei;doshti;bochor;bolte;paro;amaar;jiboner;shobcheye;bhalo;ebong;anonder;din;chilo;ebong;shei;somoyekar;bondhurai;amaar;shobcheye;bhalo;bondhu;sheita;aajo;shotyi;
+আচ্ছা;স্কুললাইফ**;এর;ব্যাপারে;কি ;বলবো;সাউথ**;পয়েন্টে**;পড়েছি;চির;জীবন;এবং;সেই;দশটি;বছর;বলতে;পারো;আমার;জীবনের;সবচেয়ে;ভালো;এবং;আনন্দের;দিন;ছিল;এবং;সেই;সময়কার;বন্ধুরাই;আমার;সবচেয়ে;ভালো;বন্ধু;সেইটা;আজও;সত্যি;
+aare;school;ekta;chele;dhora;porechilo;magazine;niye;eshechilo;aar;duto;CD;eibaar;sheita;dekhe;mam;to;nalish;janiyeche;vice;principal;er;kache;tokhon;amraa;class;10;e;pori;to;vice;principal;shei;section;er;shobai;er;barite;chithi;pathiyechilo;amader;na;janiye;jate;baba;make;shabdhan;kore;diyechilo;je;chelera;ei;korche;to;apnara;shabdhan;hoben;
+আরে;স্কুলে**;একটা;ছেলে;ধরা;পড়েছিলো;ম্যাগাজিন**;নিয়ে;এসেছিলো;আর;দুটো;সি.ডি.**;এইবার;সেইটা;দেখে;ম্যাম**;তো;নালিশ;জানিয়েছে;ভাইস**;প্রিন্সিপাল**;এর;কাছে;তখন;আমরা;ক্লাস**;টেন_num;এ;পড়ি;তো;ভাইস**;প্রিন্সিপাল**;সেই;সেকশন**;এর;সবাই;এর;বাড়িতে;চিঠি;পাঠিয়েছিলো;আমাদের;না ;জানিয়ে;যাতে;বাবা;মাকে;সাবধান;ক'রে;দিয়েছিলো;যে;ছেলেরা;এই;করছে;তো;আপনারা;সাবধান;হবেন;
+amraa;shobai;shei;chiti;opor;thikana;label;ta;tule;diye;sheitai;abaar;school;ke;address;kore;pathiye;dilam;sathe;ekta;kore;chobi;diye;1;shoptaho;por;school;er;mailbox;bhore;gelo!;
+আমরা;সবাই;সেই;চিঠির;ওপর;ঠিকানার;লেবেল**;টা;তুলে;দিয়ে;সেইটাই;আবার;স্কুল**;কে;অ্যাড্রেস**;ক'রে;পাঠিয়ে;দিলাম;সাথে;একটা;ক'রে;ছবি;দিয়ে;এক_num;সপ্তাহ;পর;স্কুল**;এর;মেলবক্স**;ভরে;গেল;
