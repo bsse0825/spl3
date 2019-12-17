@@ -1,5 +1,5 @@
 # About
-This is a POC project for idea: ["English to Bengali phonetic transformation keyboard using Deep Learning" by Tusher]
+
 
 
 # Dependencies
@@ -30,5 +30,5 @@ Recommended setup procedure-
 
 # Contact
 If you are interested & want to contribute to the project in any form, please contact:
-kowsertusher@gmail.com
+trs5958@yahoo.com
 
